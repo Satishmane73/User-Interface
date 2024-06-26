@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag With Class</title>
+    <style>
+        .para{
+            color: red;
+        }
+        p.para{
+            color: blue;
+        }
+        /* the second p tag properties overried on first p tag */
+        p{      
+            color: black;
+            background-color: bisque;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="para">This is a heading</h1>
+    <p class="para">This a class para</p>
+    <p>this is a second para</p>
+</body>
+</html>
